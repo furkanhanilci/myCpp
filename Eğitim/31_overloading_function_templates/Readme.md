@@ -4,7 +4,7 @@
 
 Overloading temelde elde bulunan bir metot için baz alarak anlatırsak, aynı sayıda parametreye sahip olmasına rağmen farklı veri tipleriyle parametrelerin alınmasıdır. Bu kavramın daha net anlaşılabilmesi için ana başlıklar çerçevesinde verilen örnekleri detaylıca inceleyelim.
 
-##### Metot Overloading
+##### Function Overloading
 
 Bir sınıf içerisinde herhangi bir metot (fonksiyon) oluşturduğumuzu varsayalım. Metot içerisine gelen veri ondalıklı bir sayı ise 2 ile çarpan, tam bir sayı ise 3 ile çarpan bir metot oluşturmamız gerekiyor. Bunu nasıl yapabiliriz?
 
