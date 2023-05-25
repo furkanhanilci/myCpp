@@ -75,93 +75,93 @@ Yukarıdaki örnekte, name veri üyesi protected olarak tanımlanmıştır. Bu n
 
 - Single Inheritance (Tekli Kalıtım): Tekli kalıtım, bir sınıfın sadece bir tane temel sınıftan kalıtım alması durumudur. Bu en basit kalıtım şeklidir.
 
-    class Shape {
-    protected:
-        int width;
-        int height;
-    public:
-        void setWidth(int w) {
-            width = w;
-        }
-        void setHeight(int h) {
-            height = h;
-        }
-    };
+        class Shape {
+        protected:
+            int width;
+            int height;
+        public:
+            void setWidth(int w) {
+                width = w;
+            }
+            void setHeight(int h) {
+                height = h;
+            }
+        };
 
-    class Rectangle : public Shape {
-    public:
-        int getArea() {
-            return width * height;
-        }
-    };
+        class Rectangle : public Shape {
+        public:
+            int getArea() {
+                return width * height;
+            }
+        };
 
 Yukarıdaki örnekte, Shape adında bir temel sınıf ve Rectangle adında bir türetilmiş sınıf bulunmaktadır. Rectangle sınıfı, Shape sınıfından public erişim belirteciyle kalıtım alır. Böylece, Rectangle sınıfı Shape sınıfının setWidth(), setHeight() işlevlerini ve width, height veri üyelerini kullanabilir.
 
 - Multilevel Inheritance (Çoklu Düzeyde Kalıtım): Çoklu düzeyde kalıtım, bir sınıfın bir diğer türetilmiş sınıftan kalıtım alması durumudur. Böylece, bir sınıf diğer bir sınıftan türetilmiş olabilir.
 
-    class Shape {
-    protected:
-        int width;
-        int height;
-    public:
-        void setWidth(int w) {
-            width = w;
-        }
-        void setHeight(int h) {
-            height = h;
-        }
-    };
+        class Shape {
+        protected:
+            int width;
+            int height;
+        public:
+            void setWidth(int w) {
+                width = w;
+            }
+            void setHeight(int h) {
+                height = h;
+            }
+        };
 
-    class Rectangle : public Shape {
-    public:
-        int getArea() {
-            return width * height;
-        }
-    };
+        class Rectangle : public Shape {
+        public:
+            int getArea() {
+                return width * height;
+            }
+        };
 
-    class ColoredRectangle : public Rectangle {
-    private:
-        std::string color;
-    public:
-        void setColor(const std::string& c) {
-            color = c;
-        }
-        std::string getColor() {
-            return color;
-        }
-    };
+        class ColoredRectangle : public Rectangle {
+        private:
+            std::string color;
+        public:
+            void setColor(const std::string& c) {
+                color = c;
+            }
+            std::string getColor() {
+                return color;
+            }
+        };
 
 Yukarıdaki örnekte, Shape sınıfı Rectangle sınıfına kalıtım verir ve Rectangle sınıfı da ColoredRectangle sınıfına kalıtım verir. Böylece, ColoredRectangle sınıfı, hem Shape sınıfının hem de Rectangle sınıfının özelliklerini ve işlevlerini kullanabilir. Ayrıca, kendi özel özelliklerini (color) ve işlevlerini de ekleyebilir.
 
 - Hierarchical Inheritance (Hiyerarşik Kalıtım): Hiyerarşik kalıtım, bir sınıfın birden fazla türetilmiş sınıfa kalıtım verdiği durumdur. Yani, bir temel sınıf, birden fazla türetilmiş sınıf tarafından kalıtım alabilir.
 
-    class Animal {
-    public:
-        void eat() {
-            std::cout << "Animal is eating." << std::endl;
-        }
-    };
+        class Animal {
+        public:
+            void eat() {
+                std::cout << "Animal is eating." << std::endl;
+            }
+        };
 
-    class Cat : public Animal {
-    public:
-        void meow() {
-            std::cout << "Cat says meow." << std::endl;
-        }
-    };
+        class Cat : public Animal {
+        public:
+            void meow() {
+                std::cout << "Cat says meow." << std::endl;
+            }
+        };
 
-    class Dog : public Animal {
-    public:
-        void bark() {
-            std::cout << "Dog barks." << std::endl;
-        }
-    };
+        class Dog : public Animal {
+        public:
+            void bark() {
+                std::cout << "Dog barks." << std::endl;
+            }
+        };
 
-    class Bird : public Animal {
-    public:
-        void chirp() {
-            std::cout << "Bird chirps." << std::endl;
-        }
-    };
+        class Bird : public Animal {
+        public:
+            void chirp() {
+                std::cout << "Bird chirps." << std::endl;
+            }
+        };
 
 Yukarıdaki örnekte, Animal sınıfı Cat, Dog ve Bird sınıflarına kalıtım verir. Her bir sınıf, temel sınıfın işlevlerini kullanabilirken kendi özel işlevlerini de ekler. Böylece, farklı hayvan türleri için ayrı sınıflar oluşturulmuş olur.
 
