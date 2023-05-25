@@ -54,7 +54,7 @@ Yukarıdaki örnekte, static int veri üyesi "count" sınıf tanımında başlan
             static int data;
         };
 
-        int Example::data = 10;
+          int Example::data = 10;
 
 Yukarıdaki örnekte, "data" adında bir static int veri üyesi tanımlanmıştır. Bu veri üyesi programın çalışma süresi boyunca bellekte kalır ve değeri 10 olarak atanmıştır.
 
