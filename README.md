@@ -1,14 +1,10 @@
-C_PlusPlus
+# C++ 
 
-                         ~~ PREPERATION ~~
+### INTRODUCTION
 
-        
-                VsCode Installation From Terminal : & sudo snap install code --classic
+This GitHub Repository contains lectures and examples on the fundamentals of C++.  
 
-                Cpp extensions are loading from related section named extensions (C/C++ , C/C++ Extension Pack , C/C++ Runner , Cmake , Cmake Tools)
-
-
-                         ~~ INDEX ~~
+### INDEX
 
                 1.Creating a Custom Functions
 
@@ -85,21 +81,37 @@ C_PlusPlus
                 37.Pointers
 
                 38.Object Oriented Programming
+				
+				
+
+### INSTALLATION
+
+**VsCode Installation From Terminal :**  
+  
+						& sudo snap install code --classic
+
+###### Note:  
+This is not related about ubuntu version.
+
+**Cpp extensions are loading from related section named extensions** (*C/C++ , C/C++ Extension Pack , C/C++ Runner , Cmake , Cmake Tools*)
+
+
+### REFERENCES
+
+
+- [bilgigunlugum.net](https://www.bilgigunlugum.net/prog/cppprog/cpp_giris)
+
+- [YouTube CalebCurry C++](https://www.youtube.com/watch?v=_bYFu9mBnr4&list=PL_c9BZzLwBRJVJsIfe97ey45V4LP_HXiG&ab_channel=CalebCurry)
 
 
 
 
+### Road Map
 
-                         ~~ REFERENCES ~~
-
-
-                1. https://www.bilgigunlugum.net/prog/cppprog/cpp_giris
-
-                2. https://www.youtube.com/watch?v=_bYFu9mBnr4&list=PL_c9BZzLwBRJVJsIfe97ey45V4LP_HXiG&ab_channel=CalebCurry
-
-
-
-
+- Add documents more detailed. 
+- Edit folders and cpp files.
+- Add examples about "Usage of pointers" 
+- Add examples about Object Oriented Programming.(Inheritance, Classes & Objects, Overloading, Polymorphism, Abstraction, Encapsulation, Interfaces)
 
 
 
