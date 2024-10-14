@@ -88,8 +88,3 @@
 
 
 
-
- 
-
-                                            ~ Created by furkanhanilci&hamzacanturk ~~
-                                                    ~~ All Rights Reserved ~~
