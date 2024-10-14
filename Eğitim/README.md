@@ -78,20 +78,3 @@
 
 
 
-
-
-                                                          ~~ REFERENCES ~~
-
-
-1. https://www.bilgigunlugum.net/prog/cppprog/cpp_giris
-
-2. https://www.youtube.com/watch?v=_bYFu9mBnr4&list=PL_c9BZzLwBRJVJsIfe97ey45V4LP_HXiG&ab_channel=CalebCurry
-
-
-
-
-
-  
-                                            ~ Created by furkanhanilci&hamzacanturk ~~
-                                                    ~~ All Rights Reserved ~~
-
