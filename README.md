@@ -1,12 +1,3 @@
-C_PlusPlus
-
-                         ~~ PREPERATION ~~
-
-        
-                VsCode Installation From Terminal : & sudo snap install code --classic
-
-                Cpp extensions are loading from related section named extensions (C/C++ , C/C++ Extension Pack , C/C++ Runner , Cmake , Cmake Tools)
-
 
                          ~~ INDEX ~~
 
@@ -90,12 +81,6 @@ C_PlusPlus
 
 
 
-                         ~~ REFERENCES ~~
-
-
-                1. https://www.bilgigunlugum.net/prog/cppprog/cpp_giris
-
-                2. https://www.youtube.com/watch?v=_bYFu9mBnr4&list=PL_c9BZzLwBRJVJsIfe97ey45V4LP_HXiG&ab_channel=CalebCurry
 
 
 
